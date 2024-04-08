@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lanciaawards-f9e99",
+  "private_key_id": "ed1ea3b7f3cb30070da7cb7644813e73366cf26d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCkFdPW9OX0TmqL\nPytm7KNukAl48SO9CKtrADzT9LQAd1KJTNcnHY3HU8ou4Uwg+5ErOt7I5TJBt67m\n6Uy/StmTnvCIJHBEEfJrHi47TVek+apY7Ilh2Zcly31/x76qtV38sAsxrnTUSATw\nFrj4VaFfyHrIxPAzlYOKqTns+hQheFFjyxHgihxhaX+ddniDYQVFpdC6QjeberWR\nknjBoOt2mxkQ3vrr4LH/UK+J9Oh/Je4fX7Sk1jOmHnUKUEnHdGYzqmdDxoXzC9uN\nmZFIgxGs65yYLJwuqcmLEhQPS5cMzPiHX+4tiSCyQKEFz7tVvSVRAZHyrAV0orSZ\ngN7Rt9T9AgMBAAECggEAEYQS/RtfgNjuHrc7lt0kBSVzHWoAeql2QxHfbHDu1i3m\nral6Pj61Z9XV+3MpgUvZj1fVeHSfDMzi6tt0yebfmxaYbrAVG+8ehbjPDp2PAZl1\nSdDWSY/ExtAWMZHNFMQPqG3ShBcveYnGnSqPzFK3y1XHZa9ARQFs7VxrRpTbmUbm\n5vn1+Y5ERgs/glCuScNmRkdglRqbF3fR3D+xZiKY+0VeswC7kySGLmEXj2k+bWvR\n1bNxk3jkflpsNxbgFAa7+78oguaz21zsnEKsLlMn0LiXB3C2CELb28WOETxISGin\n5jCh3YXIv+hadGyCP2OoXxU4rJWZ5qglcRhI304asQKBgQDdI8BeTrR6BQkn/zBF\nxBN7S5FGutO0hRQYCwMUMVg+ZKJ5GLF88V14frQX07Nj9a+yEx7vX3FJ6oXTeAix\nEqyqM19LK3HWODnq9xUGQqDfDOTDucn8nydkNut5TwnrrYu+10lvvDIOMFaJ+JwH\nXTcHlpupPdb8G0GNNSF1w9bnAwKBgQC985r8oCt8cJfCaSKbwEQGCWN5S0fdB11Y\nb9Dn77eCjgGgsAnUfMcXcD6y6xDbFxCuc/trADevptn22XLOUUrhhvwPlAqrQ1qm\nVdlGVtmhSOwSGRbABN1u5JDNJXVIQTb33SZyNxkTLWs/a8tj6RXcDeqsxnWovGWK\nlchJA6uT/wKBgQDVpFuOAPWlSMYuyQCG9kZoAHqq3YX4SfU+wSzJTl7VcH3zBiM6\n9Sh7Z9Vvi4wtD0gdfxGM6yVU5ulBgx7Ki6Maj6UJx0AkWI/D6895C9fFhfxhB1YX\n5F63F8Pon66S7UgsKGt/Mk8dnB+PDgsXpjuq7hsWp3LSfzaWSHU6A+jTpwKBgQCQ\n0t31BG2DWBjs2dnQJDv42kmkXfgxlf7egYomfAdPG9Qz3mPwRR5KSYMUSNK2KBTI\n3ZbwEt9iJfWDFnFIyoQsBQ3DFt03jIfd0BBzZ55QMNgESGqnBk6J0Oxx7MBJ0acG\nPe+lH0sX6wYc+aO9ziWjfFzTVBC7EMDec6qbuJelowKBgHdCQwXkBFvoQLyyi34v\nxHe8hBVRXNZxaAfZcaBE45nX5UFQytYXlYbNsFCbnrHHGBH8XDJVamtUUJ9VWS8x\nxJFh7ZJbTfQrHFYkdEpbMRTycp++JPQEqfJTQfQYJvKbsjA2Vv6vT1u0uEfxqmvz\nqsJ8Y4B7koTEooER3v70kKME\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xflzy@lanciaawards-f9e99.iam.gserviceaccount.com",
+  "client_id": "102077337458751873852",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xflzy%40lanciaawards-f9e99.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
