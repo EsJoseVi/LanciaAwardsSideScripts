@@ -1,5 +1,8 @@
 import firebase_admin
 from firebase_admin import firestore
+from rich.console import Console
+from rich.table import Table
+
 
 cred = firebase_admin.credentials.Certificate("./cred.json")
 
@@ -23,4 +26,15 @@ for doc in docs:
 
 
 for letter in total:
-    print(f"Categoria {letter}: {total[letter]}")
+    table = Table(title=letter)
+    columns = ["Nominacion", "Nº Votos"]
+    for column in columns:
+        table.add_column(column)
+    for row in total[letter]:
+        nominados = total[letter]
+        row = [row, str(nominados[row])]
+        if row[0] == '':
+            row[0] = 'Voto Blanco'
+        table.add_row(*row, style='bright_red')
+    console = Console()
+    console.print(table)
