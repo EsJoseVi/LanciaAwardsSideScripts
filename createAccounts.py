@@ -29,7 +29,7 @@ def sendEmail(email_reciver):
         <head></head>
         <body style="font-family:Arial">
             <p>
-                Utiliza el link de abajo para poder ingresar en la plataforma de votacion de la gala de premios Lancia Awords.
+                Utiliza el link de abajo para crear la contraseña que utilizaras para ingresar en la plataforma de votacion de la gala de premios Eso Awords.
             </p>
             <p style="color:red">
                 RECUERDA VOTAR SIENDO OBJETIVO!!!
