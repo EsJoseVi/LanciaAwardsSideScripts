@@ -3,6 +3,7 @@ from firebase_admin import auth
 from email.message import EmailMessage
 import win32com.client
 import hashlib
+import csv
 
 outlook = win32com.client.Dispatch('Outlook.Application')
 
@@ -46,4 +47,9 @@ def sendEmail(email_reciver):
     newmail._oleobj_.Invoke(*(64209, 0, 8, 0, gmail))
 
     newmail.Send()
-sendEmail('jose.vicalv@educa.jcyl.es')
+
+f = open('emails.txt', 'r', encoding='UTF-8')
+
+for line in f:
+    sendEmail(line)
+    print(line)

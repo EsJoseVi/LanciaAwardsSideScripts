@@ -1,5 +1,3 @@
-import csv
-
 buffer = ''
 f =  open('rawEmails.txt', 'r', encoding='UTF-8')
 r = open('cleanEmails.txt', 'w', encoding='UTF-8')
