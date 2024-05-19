@@ -21,7 +21,6 @@
 "JOSÉ CARLOS MARTÍNEZ ALONSO" <josec.maralo@educa.jcyl.es>
 "IRIS ORDÁS SOLÍS" <iris.ordsol@educa.jcyl.es>
 "ADRIÁN PELÁEZ FERNÁNDEZ" <adrian.pelfer@educa.jcyl.es>
-"MARCOS SAMUEL PÉREZ GIL" <marcoss.pergil@educa.jcyl.es>
 "OLGA PÉREZ LARIO" <olga.perlar@educa.jcyl.es>
 "ÁNGELA PÉREZ RIVAS" <angela.perriv@educa.jcyl.es>
 "MARIO PRESA PRIETO" <mario.prepri@educa.jcyl.es>
@@ -49,7 +48,6 @@
 "JUDIT PRESA DÍEZ" <judit.predie@educa.jcyl.es>
 "CLAUDIA PUERTA CAÑÓN" <claudia.puecan@educa.jcyl.es>
 "LUCÍA PULGAR CORDERO" <lucia.pulcor@educa.jcyl.es>
-"ISABELLA RAMÍREZ ARIAS" <isabella.ramari@educa.jcyl.es>
 "CARLA RODRÍGUEZ JÁÑEZ" <carla.rodjan@educa.jcyl.es>
 "LEYRE RODRÍGUEZ RUIZ" <leyre.rodrui@educa.jcyl.es>
 "JORGE SAN JOSÉ MARTÍNEZ" <jorge.sanmar.5@educa.jcyl.es>
@@ -100,7 +98,7 @@
 "MARCO FERNÁNDEZ ALONSO" <marco.feralo@educa.jcyl.es>
 "ALAN FERNÁNDEZ BLANCO" <alan.ferbla.1@educa.jcyl.es>
 "MATEO FERNÁNDEZ CASCALLANA" <mateo.fercas@educa.jcyl.es>
-"SUSHANT FERNÁNDEZ DOMÍNGUEZ" <sushant.ferdom@educa.jcyl.es>
+"SUSHANT FERNÁNDEZ DOMÍNGUEZ" <tutanfer2008@gmail.com>
 "LAURA FERNÁNDEZ ESCUREDO" <laura.feresc@educa.jcyl.es>
 "MIGUEL GARCÍA SÁNCHEZ" <miguel.garsan.3@educa.jcyl.es>
 "AITOR JAL PALACIOS" <aitor.jalpal@educa.jcyl.es>
@@ -118,3 +116,4 @@
 "HEVERT RODRÍGUEZ MANCILLA" <hevert.rodman@educa.jcyl.es>
 "NAYARA TORIBIO VALDÉS" <nayara.torval@educa.jcyl.es>
 "MATEO URDIALES LANDA" <mateo.urdlan@educa.jcyl.es>
+"MARTIN FERKOS"<martinferrerokosalko@gmail.com>

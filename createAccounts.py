@@ -3,25 +3,23 @@ from firebase_admin import auth
 from email.message import EmailMessage
 import win32com.client
 import hashlib
-import csv
+import time
 
 outlook = win32com.client.Dispatch('Outlook.Application')
 
 mailitem = 0x0
-newmail = outlook.CreateItem(mailitem)
 cred = firebase_admin.credentials.Certificate("./cred.json")
 app = firebase_admin.initialize_app(cred)
 
 def sendEmail(email_reciver):
+    newmail = outlook.CreateItem(mailitem)
     newmail.To = email_reciver
-    newmail.subject = "Link para participar en las votaciaciones de los Lancia Awards"
+    newmail.subject = "Link para participar en las SEGUNDAS votaciaciones de los Lancia Awards"
 
-    auth.create_user(email=email_reciver, password=str(hashlib.md5(email_reciver.encode())))
-
-    link = auth.generate_password_reset_link(email=email_reciver)
+    #auth.create_user(email=email_reciver, password=hashlib.md5(email_reciver.encode('utf-8')).hexdigest())
 
     newmail.Body = """\
-    Utiliza el enlaze de abajo para poder ingresar en la plataforma de votacion
+    Utiliza la contraseña de abajo para ingresar en la plataforma de votacion
     de la gala de premios Lancia Awords, Un saludo la Academia.
     """
 
@@ -30,18 +28,23 @@ def sendEmail(email_reciver):
         <head></head>
         <body style="font-family:Arial">
             <p>
-                Utiliza el link de abajo para crear la contraseña que utilizaras para ingresar en la plataforma de votacion de la gala de premios Eso Awords.
+                Gracias a vuestros votos hemos reducido las opciones de cada categoria a 4 nominaciones,
+                esta sera la votación que dictaminara el ganador de cada categoria.
+                Utiliza la contrasña de abajo para ingresar en la plataforma de votacion de la gala de premios Eso Awords.
             </p>
             <p style="color:red">
                 RECUERDA VOTAR SIENDO OBJETIVO!!!
             <p>
             <p style="color:red">
-                CREA UNA CONTRASEÑA DIFERENTE A LA DE EDUCACYL!!!
+                COPIA LA CONTRASEÑA
             <p>
-            <a href={link}>Link</a> 
+            <p>
+                {hashlib.md5(email_reciver.encode('utf-8')).hexdigest()}
+            </p>
         </body>
     </html>   
     """
+    print(hashlib.md5(email_reciver.encode('utf-8')).hexdigest())
     gmail = outlook.Session.Accounts['lanciaawards@gmail.com']
 
     newmail._oleobj_.Invoke(*(64209, 0, 8, 0, gmail))
@@ -50,6 +53,10 @@ def sendEmail(email_reciver):
 
 f = open('emails.txt', 'r', encoding='UTF-8')
 
+#sendEmail("tutanfer2008@gmail.com")
+
 for line in f:
-    sendEmail(line)
-    print(line)
+    print(line[:-1])
+    time.sleep(1)
+    sendEmail(line[:-1])
+    time.sleep(1)

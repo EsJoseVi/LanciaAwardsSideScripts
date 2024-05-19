@@ -3,6 +3,8 @@ from firebase_admin import firestore
 from rich.console import Console
 from rich.table import Table
 
+top = 6
+
 
 cred = firebase_admin.credentials.Certificate("./cred.json")
 
@@ -24,17 +26,21 @@ for doc in docs:
         if votos[i] in category.keys():
             category[votos[i]] = category[votos[i]] + 1
 
-
 for letter in total:
     table = Table(title=letter)
     columns = ["Nominacion", "Nº Votos"]
+    nominados = dict(sorted(total[letter].items(), key=lambda x: x[1], reverse=True))
     for column in columns:
         table.add_column(column)
-    for row in total[letter]:
-        nominados = total[letter]
+    n = 0
+    for row in nominados:
         row = [row, str(nominados[row])]
         if row[0] == '':
             row[0] = 'Voto Blanco'
-        table.add_row(*row, style='bright_red')
+        if n < top:
+            table.add_row(*row, style='bright_yellow')
+        else:
+            table.add_row(*row, style='bright_red')
+        n = n + 1
     console = Console()
     console.print(table)
