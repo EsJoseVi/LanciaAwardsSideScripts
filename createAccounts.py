@@ -53,8 +53,6 @@ def sendEmail(email_reciver):
 
 f = open('emails.txt', 'r', encoding='UTF-8')
 
-#sendEmail("tutanfer2008@gmail.com")
-
 for line in f:
     print(line[:-1])
     time.sleep(1)
